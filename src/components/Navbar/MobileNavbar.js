@@ -1,3 +1,1 @@
-export const MobileNavbar = () => {
-  
-}
+export const MobileNavbar = () => {};
