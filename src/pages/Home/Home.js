@@ -8,13 +8,9 @@ export const Home = () => {
   // );
 
   return (
-    <Container
-    // style={{
-    //   backgroundImage: `url(${require("../../assets/images/preview.jpeg")})`,
-    // }}
-    // ref={previewRef}
-    >
-      <TopMoviesCarousel />
-    </Container>
+    // <Container>
+
+    // </Container>
+    <TopMoviesCarousel />
   );
 };

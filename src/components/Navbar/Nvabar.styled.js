@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 export const NavbarComponent = styled.nav`
   background-color: transparent;
+  position: absolute;
+  z-index: 1;
   width: 100%;
   height: 100px;
   padding: 20px;

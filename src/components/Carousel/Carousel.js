@@ -9,7 +9,7 @@ export const Carousel = ({ settings, items }) => {
       {/* {items.map((item, index) => (
         <div>{item}</div>
       ))} */}
-      <div>1</div>
+      <img src={require('../../assets/images/preview.jpeg')}/>
       <div>2</div>
       <div>3</div>
       <div>3</div>
