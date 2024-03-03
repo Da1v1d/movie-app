@@ -1,13 +1,10 @@
 import { useLocation } from "react-router-dom";
 import { NavbarComponent, NavbarLink } from "./Nvabar.styled";
-import { Button } from "../Button/Button";
 
 export const Navbar = () => {
   const { pathname } = useLocation();
   return (
     <NavbarComponent>
-      <Button icon="play" text="Watch now" />
-
       <div>
         <NavbarLink isActive={pathname === "/"} to={"/"}>
           Home

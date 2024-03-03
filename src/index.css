@@ -19,6 +19,10 @@ code {
     monospace;
 }
 
-.slick-dots li button {
-  background-color: aliceblue;
-}
+/* .slick-slide div {
+  background-image: url("/src/assets/images/preview.jpeg");
+  background-position: 50% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+} */

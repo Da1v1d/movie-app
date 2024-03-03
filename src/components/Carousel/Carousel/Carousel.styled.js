@@ -6,30 +6,33 @@ export const CarouselComponent = styled(Slider)`
 
   .slick-next {
     right: 3%;
+    width: 80px;
   }
   .slick-prev {
+    width: 80px;
     left: 3%;
+    z-index: 1;
   }
 
   .slick-next,
   .slick-prev {
-    width: 60px;
-    height: 60px;
-    background-color: white;
-    opacity: 0.7;
-    border-radius: 50%;
+    display: none;
   }
 
   .slick-next:before,
   .slick-prev:before {
-    all: unset;
+    font-size: 80px;
+    transition: all 0.2s;
+    display: none;
   }
   .slick-list {
     height: 100%;
-    z-index: -1;
     .slick-track {
       height: 100%;
     }
+  }
+  .slick-slide {
+    position: relative;
   }
   .slick-dots {
     bottom: 30px;
