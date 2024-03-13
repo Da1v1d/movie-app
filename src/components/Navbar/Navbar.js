@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { NavbarComponent, NavbarLink } from "./Nvabar.styled";
+import { NavbarComponent, NavbarLink } from "./Navbar.styled";
 
 export const Navbar = () => {
   const { pathname } = useLocation();

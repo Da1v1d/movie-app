@@ -19,10 +19,20 @@ code {
     monospace;
 }
 
-/* .slick-slide div {
-  background-image: url("/src/assets/images/preview.jpeg");
-  background-position: 50% 25%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 80vh;
-} */
+::-webkit-scrollbar {
+  width: 10px;
+  padding-top: 10px;
+}
+
+::-webkit-scrollbar-track {
+  margin: 2px 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(229, 24, 24);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(202, 10, 10);
+}

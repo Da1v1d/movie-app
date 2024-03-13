@@ -10,10 +10,9 @@ export const NavbarComponent = styled.nav`
   padding: 20px;
   color: white;
   display: flex;
-  gap: 10px;
   justify-content: ${(props) => (props.isMobile ? "center" : "space-between")};
   a {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 `;
 
